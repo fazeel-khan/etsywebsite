@@ -1,0 +1,254 @@
+body{
+    margin-top: 0px auto;
+}
+
+.input{
+    width: 600px;
+    height: 50px;
+    margin-left: 300px;
+    border-radius: 50px;
+    margin-bottom: 25px;
+    padding: 14px;
+    font-size: medium;
+}
+
+/* p{
+    font-size: 50px;
+    color: #f1641e;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-bottom: -50px;
+} */
+
+i{
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+.sign{
+    display: inline;
+    margin-left: 30px;
+    margin-right: 50px;
+    font-size: 25px;
+}
+
+.btn > ul{
+   text-align: center;
+   display: inline;
+}
+
+hr{
+    margin-top: 10px;
+}
+
+.head1{
+    font-weight: normal;
+    text-align: center;
+    font-size: 35px;
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    transition: ;
+}
+
+.child > img{
+    height: 130px;
+    width: 130px;
+    border-radius: 80px;
+    justify-content: center;
+}
+
+.child > h1{
+    font-size: 21px;
+    font-weight: normal;
+    font-family: sans-serif;
+    margin-bottom: 100px;
+}
+
+.child > img:hover{
+    box-shadow: 3px 3px 3px rgb(158, 158, 196);
+    cursor: pointer;
+    transform: translatey(-10px);
+}
+
+h1{
+    text-align: center;
+    font-weight: normal;
+}
+
+.parent2{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1f 1fr;
+    grid-template-columns: repeat(6 , 1fr);
+}
+
+.child2{
+    border: 1px solid white;
+    height: 350px;
+    width: 210px; 
+    border-radius: 15px;
+}
+
+.child2:hover{
+    box-shadow: 2px 2px 2px gray;
+    cursor: pointer;
+}
+
+.child2 > img:hover{
+    cursor: pointer;
+}
+
+.child2 > img{
+    border: 1px solid white;
+    height: 300px;
+    width: 200px;
+    border-radius: 15px;
+    padding-top: 5px;
+    /* padding-left: 5px; */
+    /* padding-right: 5px; */
+    box-shadow: white;
+}
+
+.child2 > h2{
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+h2{
+    text-align: center;
+    font-size: 16px
+}
+
+/* input{
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: gray;
+    text-decoration: none;
+    background: none;
+    border: none;
+    position: relative;
+    display: inline-block;
+    border-radius: 24px;
+    outline: none; */
+}
+
+input:hover{
+    background-color: rgb(218, 205, 205);
+    border-radius: 24px;
+    /* color: rgba(95,99,104); */
+}
+
+h3{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.parent3{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1f 1fr;
+    grid-template-columns: repeat(6 , 1fr);
+}
+
+.child3{
+    border: 1px solid white;
+    height: 280px;
+    width: px; 
+    border-radius: 10px;
+}
+
+.child3:hover{
+    box-shadow: 2px 2px 2px gray;
+}
+
+.child3 > img{
+    border: 1px solid white;
+    height: px;
+    width: 250px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 5px;
+    box-shadow: white;
+    /* margin: 5px; */
+}
+
+.child3 > img:hover{
+    cursor: pointer;
+}
+
+.child3 > h2{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.info-container{
+    padding: 30px;
+    background-color: navajowhite;
+}
+
+.heading > h1{
+    margin: 0px;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+.sub-heading{
+    margin: 0px;
+    font-family: sans-serif;
+    margin-top: 0px;
+    font-size: smaller;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2,p{
+    font-family: sans-serif;
+    font-size: 21px;
+
+}
+
+.heading{
+    text-align: center;
+}
+
+.sub-heading{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 5px;
+}
+
+.parent4{
+    width: px;
+    margin: 12px auto;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+p{
+    margin-top: 15px;
+}
+
+.heading2{
+    text-align: center;
+    font-size: 20px;
+}
+
+.container1{
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+    height: 45px;
+    width: 150px;
+    border-radius: 20px;
+    font-weight: bold;
+}
